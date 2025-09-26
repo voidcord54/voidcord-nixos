@@ -92,6 +92,7 @@
   	firefox
   	git
   	vscodium
+    neovim
   ];
 
 
