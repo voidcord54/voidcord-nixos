@@ -7,7 +7,7 @@
 
   outputs = { self, nixpkgs }: {
 
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.voidcord-nixos = nixpkgs.lib.nixosSystem {
       modules = [ ./configuration.nix ];
     };
 

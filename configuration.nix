@@ -4,9 +4,22 @@
 {
   imports =
     [ 
-      /etc/nixos/hardware-configuration.nix
+      ./hardware-configuration.nix
     ];
-    
+  
+
+  # Apps
+  environment.systemPackages = with pkgs; [
+  	firefox
+  	git
+  	vscodium
+    neovim
+    obsidian
+    google-chrome
+    microsoft-edge
+    gnumake
+  ];
+
   # Enable flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -14,7 +27,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "voidcord-nixos"; # Define your hostname.
 
   # Enable networking
   networking.networkmanager.enable = true;
@@ -86,14 +99,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-  	firefox
-  	git
-  	vscodium
-    neovim
-  ];
+
 
 
   system.stateVersion = "25.05"; # Did you read the comment?
