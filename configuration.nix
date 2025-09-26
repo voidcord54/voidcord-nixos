@@ -18,6 +18,7 @@
     google-chrome
     microsoft-edge
     gnumake
+    fastfetch
   ];
 
   # Enable flake
