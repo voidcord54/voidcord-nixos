@@ -19,6 +19,7 @@
     microsoft-edge
     gnumake
     fastfetch
+    gnome-extension-manager
   ];
 
   # Enable flake
