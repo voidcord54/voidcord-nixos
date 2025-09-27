@@ -25,13 +25,12 @@
     hugo
   ];
 
-  home.shellAliases = {
+programs.bash = {
+  enable = true;
+  shellAliases = {
     btw = "echo 'i use nixos btw'";
   };
-  
-  programs.zsh.enable = true;
-  programs.zsh.ohMyZsh = {
-    enable = true;
-    theme = "agnoster";
-  };
+};
+
+  # programs.zsh.enable = true;
 }
