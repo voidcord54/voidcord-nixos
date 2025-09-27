@@ -12,7 +12,7 @@
 
     nixosConfigurations.voidcord-nixos = nixpkgs.lib.nixosSystem {
       modules = [ 
-        ./configuration.nix
+        ./main.nix
         home-manager.nixosModules.home-manager
         {
           home-manager.useGlobalPkgs = true;

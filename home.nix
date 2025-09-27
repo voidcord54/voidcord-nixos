@@ -19,6 +19,7 @@
     microsoft-edge
     fastfetch
     clinfo
+    obs-studio
   ];
 
 
