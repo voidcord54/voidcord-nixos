@@ -18,9 +18,7 @@
     google-chrome
     microsoft-edge
     fastfetch
-    discord
     clinfo
-    mediawriter
   ];
 
 

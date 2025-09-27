@@ -11,7 +11,6 @@
       ./modules/networking.nix
       ./modules/sound.nix
       ./modules/time.nix
-      ./modules/amd.nix
       ./modules/kde.nix
 
 
