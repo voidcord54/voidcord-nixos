@@ -1,3 +1,5 @@
+# configuration.nix
+
 
 { config, pkgs, ... }:
 
