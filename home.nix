@@ -22,11 +22,8 @@
     gnome-extension-manager
     discord
     hugo
-    davinci-resolve
     clinfo
-    distrobox
-    lshw
-    podman
+    mediawrite
   ];
 
 
