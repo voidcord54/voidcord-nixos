@@ -12,17 +12,9 @@
 
   # Apps
   environment.systemPackages = with pkgs; [
-  	firefox
   	git
   	vscodium
-    neovim
-    obsidian
-    google-chrome
-    microsoft-edge
     gnumake
-    fastfetch
-    gnome-extension-manager
-    discord
   ];
 
   # Enable flake

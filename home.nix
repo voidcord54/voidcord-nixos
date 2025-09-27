@@ -12,25 +12,25 @@
   # example: install packages for your user
   home.packages = with pkgs; [
   	firefox
-  	git
-  	vscodium
     neovim
     obsidian
     google-chrome
     microsoft-edge
-    gnumake
     fastfetch
     gnome-extension-manager
     discord
     hugo
   ];
 
-programs.bash = {
+  programs.zsh = {
   enable = true;
+  enableCompletion = true;
+  syntaxHighlighting.enable = true;
+  autosuggestions.enable = true;
+
   shellAliases = {
     btw = "echo 'i use nixos btw'";
   };
 };
 
-  # programs.zsh.enable = true;
 }
