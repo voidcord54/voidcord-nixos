@@ -23,6 +23,7 @@
     discord
     hugo
     davinci-resolve
+    clinfo
   ];
 
 
