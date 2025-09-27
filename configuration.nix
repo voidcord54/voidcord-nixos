@@ -20,6 +20,7 @@
     gnumake
     fastfetch
     gnome-extension-manager
+    discord
   ];
 
   # Enable flake

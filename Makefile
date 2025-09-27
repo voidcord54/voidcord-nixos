@@ -10,10 +10,7 @@ nixos-oma:
 
 nixos-homelab:
 	nixos-rebuild switch --flake .#homelab --target-host henry@homelab-1 --use-remote-sudo --show-trace 
-
-macos:
-	sudo darwin-rebuild switch --flake .#
-
+	
 gc: 
 	# run garbage collection
 	nix-collect-garbage --delete-older-than 5d
