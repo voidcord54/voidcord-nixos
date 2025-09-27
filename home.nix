@@ -24,6 +24,9 @@
     hugo
     davinci-resolve
     clinfo
+    distrobox
+    lshw
+    podman
   ];
 
 
