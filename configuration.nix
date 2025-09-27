@@ -11,7 +11,7 @@
       ./modules/networking.nix
       ./modules/sound.nix
       ./modules/time.nix
-      ./modules/kde.nix
+      ./modules/desktop_environment/kde.nix
 
       ./modules/users/future.nix
     ];
