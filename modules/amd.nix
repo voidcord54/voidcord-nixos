@@ -10,7 +10,8 @@
   hardware.graphics = {
     enable = true;
     extraPackages = with pkgs; [
-      mesa.opencl # Enables Rusticl (OpenCL) support
+      mesa.opencl
+      rocmPackages.clr.icd
     ];
   };
 }
