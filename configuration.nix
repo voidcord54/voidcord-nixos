@@ -13,7 +13,6 @@
       ./modules/time.nix
       ./modules/kde.nix
 
-
       ./modules/users/future.nix
     ];
 
