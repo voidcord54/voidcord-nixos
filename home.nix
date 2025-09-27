@@ -23,7 +23,7 @@
     discord
     hugo
     clinfo
-    mediawrite
+    mediawriter
   ];
 
 
