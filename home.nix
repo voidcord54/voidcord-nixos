@@ -14,14 +14,11 @@
   # example: install packages for your user
   home.packages = with pkgs; [
   	firefox
-    neovim
     obsidian
     google-chrome
     microsoft-edge
     fastfetch
-    gnome-extension-manager
     discord
-    hugo
     clinfo
     mediawriter
   ];

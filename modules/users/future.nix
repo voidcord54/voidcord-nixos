@@ -6,7 +6,6 @@
     isNormalUser = true;
     description = "future";
     extraGroups = [ "networkmanager" "wheel" ];
-    shell = pkgs.zsh;
     packages = with pkgs; [
     ];
   };
