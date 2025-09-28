@@ -6,8 +6,6 @@
 
   programs.home-manager.enable = true;
 
-
-  
   # stateVersion should match the version your user environment is based on
   home.stateVersion = "25.05";
 
