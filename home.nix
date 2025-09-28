@@ -19,6 +19,7 @@
     clinfo
     obs-studio
     vlc
+    blender
   ];
 
 
