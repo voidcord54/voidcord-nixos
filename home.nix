@@ -20,6 +20,7 @@
     fastfetch
     clinfo
     obs-studio
+    vlc
   ];
 
 
