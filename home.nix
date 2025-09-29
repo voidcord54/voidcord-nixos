@@ -21,6 +21,7 @@
     vlc
     blender
     auto-editor
+    mediawriter
   ];
 
 
