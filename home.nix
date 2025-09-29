@@ -20,6 +20,7 @@
     obs-studio
     vlc
     blender
+    auto-editor
   ];
 
 
